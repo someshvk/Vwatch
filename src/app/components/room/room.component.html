@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <input type="text" id="roomId" class="form__input" autocomplete="off" placeholder=" " #input>
+        <label for="text" class="form__label">Room ID</label>
+    </div>
+    <div class="join">
+        <button class="joinBtn" id="joinBtnId" (click) = "joinRoom(input.value)">Join</button>
+        <button class="leaveBtn" id="leaveBtnId" (click) = "leaveRoom()">Leave</button>
+    </div>
+    <h2>OR</h2>
+    <div class="create"> 
+        <div class="roomID">
+            <span id="spanId">-</span>
+        </div>
+        <button class="createBtn">Create Room</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>

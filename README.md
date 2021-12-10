@@ -1,12 +1,13 @@
-
-
+## About this project
+<p>
+  Vwatch is a Video Player that plays your favourite YouTube video in a synchronized way i.e. different users can join a particular event/room and everyone sees a particular video and the controls made by one user are reflected in everyones player in that room ( Sort of like a virtual theater ).
+</p>
+<h3>Demo :</h3>
 https://user-images.githubusercontent.com/71092284/132044707-0d55f2c8-f411-479a-90ae-c900b7b62f63.mp4
 
 
 
-
-
-# Rough
+## Instructions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
